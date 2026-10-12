@@ -1,16 +1,49 @@
-# React + Vite
+# Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A personal developer portfolio website showcasing software development and applied AI projects, technical skills, and experience.
 
-Currently, two official plugins are available:
+Built with **React**, **Vite**, and modern CSS.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+- **Modern Dark UI** — Clean, responsive design with smooth interactions
+- **Featured Projects** — Showcase of AI and web projects with direct links to GitHub repositories
+- **Skills & Journey** — Highlights core languages, frameworks, internship experience, and education
+- **Contact & Socials** — Quick links to GitHub, LinkedIn, and email contact
+- **Centralized Content** — Easily updated from a single file (`src/data/content.js`)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
 
-## Expanding the ESLint configuration
+- **Frontend:** React
+- **Build Tool:** Vite
+- **Styling:** Vanilla CSS (CSS variables, Flexbox & Grid)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 💻 Getting Started
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/Aparnamol-KS/PortFolio.git
+cd PortFolio
+```
+
+### 2. Install dependencies
+```bash
+npm install
+```
+
+### 3. Run development server
+```bash
+npm run dev
+```
+
+### 4. Build for production
+```bash
+npm run build
+```
+
+## 📝 Customization
+
+All portfolio content, projects, and contact info can be updated directly in:
+```
+src/data/content.js
+```
